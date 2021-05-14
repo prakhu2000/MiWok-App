@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minHeight="88dp"
+        android:background="@android:color/white"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            tools:ignore="InvalidId" />
+       <LinearLayout
+           android:id="@+id/text_container"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical"
+           android:paddingLeft="16dp"
+       
+           tools:ignore="InvalidId" >
+
+        <TextView
+            android:id="@+id/miWokTextView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="bottom"
+            android:textColor="@color/white"
+
+            tools:text="lutti"
+
+            />
+
+        <TextView
+            android:id="@+id/defaultTextView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:textSize="18sp"
+            tools:text="one"
+             />
+    </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
